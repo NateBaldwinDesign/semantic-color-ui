@@ -34,6 +34,6 @@
 }
 
 .tab__nav-link.is-active {
-  color: semantic-color(focus, dark);
-  border-bottom-color: semantic-color(focus, light);
+  color: semantic-color(presence, dark);
+  border-bottom-color: semantic-color(presence, dark-med);
 }

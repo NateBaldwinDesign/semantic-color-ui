@@ -16,9 +16,13 @@ $semantic-colors: (
   ),
 
   presence: (
-    light: $color-purple--light,
-    base: $color-purple,
-    dark: $color-purple--dark
+    lightest: $color-gray-lightest,
+    light: $color-gray-light,
+    light-med: $color-gray-light-med,
+    base: $color-gray-base,
+    dark-med: $color-gray-dark-med,
+    dark: $color-gray-dark,
+    darkest: $color-gray-darkest
   ),
 
   brand: (
@@ -28,15 +32,15 @@ $semantic-colors: (
   ),
 
   call-to-action: (
-    light: $color-purple--light,
-    base: $color-purple,
-    dark: $color-purple--dark
+    light: $color-green--light,
+    base: $color-green,
+    dark: $color-green--dark
   ),
 
   focus: (
-    light: $color-purple--light,
-    base: $color-purple,
-    dark: $color-purple--dark
+    light: $color-soft-blue--light,
+    base: $color-soft-blue,
+    dark: $color-soft-blue--dark
   ),
 
   negative: (
