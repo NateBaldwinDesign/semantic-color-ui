@@ -1,11 +1,13 @@
 # Semantic Color UI
-Testing the concept of true semantics in UI color application
+Testing the concept of true semantics in UI color application.
+
+This repository is a conceptual exploration of how we can make visual interfaces more linguistic, as well as strengthening the communication between design & development by leveraging *meaningful abstractions*.
 
 ========================
 
 ## Getting started
 `gulp build` will compile sass
-`gulp watch` will compile sass and watch for changes 
+`gulp watch` will compile sass and watch for changes
 
 ## How does it work?
 1. Define your "Raw Materials" (hex values, etc.)
