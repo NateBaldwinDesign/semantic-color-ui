@@ -1,5 +1,11 @@
 @import "global/_variables";
+
+// First Example
 @import "global/_semantics";
+
+// Example with color changes based on semantics
+// @import "global/_semantics--updated";
+
 @import "components/_containers";
 @import "components/_typography";
 @import "components/_header";
