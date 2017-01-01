@@ -1,0 +1,15 @@
+// Inputs
+
+.input {
+  display: block;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: semantic-color(neutral, base);
+
+  &:focus {
+    outline: none;
+    border-color: semantic-color(focus, base);
+  }
+}

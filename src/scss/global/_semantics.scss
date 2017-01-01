@@ -1,0 +1,65 @@
+// Here is where you assign your "raw materials" their meaning.
+// Variable maps will allow you to call color by semantic when building components
+//
+// See http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
+//------------------------------------//
+
+$semantic-colors: (
+  neutral: (
+    lightest: $color-gray-lightest,
+    light: $color-gray-light,
+    light-med: $color-gray-light-med,
+    base: $color-gray-base,
+    dark-med: $color-gray-dark-med,
+    dark: $color-gray-dark,
+    darkest: $color-gray-darkest
+  ),
+
+  brand: (
+    light: $color-purple--light,
+    base: $color-purple,
+    dark: $color-purple--dark
+  ),
+
+  call-to-action: (
+    light: $color-purple--light,
+    base: $color-purple,
+    dark: $color-purple--dark
+  ),
+
+  focus: (
+    light: $color-purple--light,
+    base: $color-purple,
+    dark: $color-purple--dark
+  ),
+
+  negative: (
+    light: $color-red--light,
+    base: $color-red,
+    dark: $color-red--dark
+  ),
+
+  positive: (
+    light: $color-green--light,
+    base: $color-green,
+    dark: $color-green--dark
+  ),
+
+  information: (
+    light: $color-soft-blue--light,
+    base: $color-soft-blue,
+    dark: $color-soft-blue--dark
+  ),
+
+  notice: (
+    light: $color-yellow--light,
+    base: $color-yellow,
+    dark: $color-yellow--dark
+  )
+);
+
+// Function to access colors in palette with optional tone/shade
+
+@function semantic-color($semantic-color, $tone: 'base') {
+    @return map-get(map-get($semantic-colors, $semantic-color), $tone);
+}

@@ -1,0 +1,11 @@
+// Header
+
+.header {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  background-color: semantic-color(brand, base);
+  color: semantic-color(neutral, light);
+}

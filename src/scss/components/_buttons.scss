@@ -1,0 +1,25 @@
+// Buttons
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: semantic-color(neutral, base);
+  background-color: semantic-color(neutral, light);
+  color: semantic-color(neutral, darkest);
+
+  &:focus {
+    outline: none;
+    border-color: semantic-color(focus, base);
+  }
+}
+
+.button--primary {
+  @extend .button;
+
+  border-color: semantic-color(call-to-action, base);
+  background-color: semantic-color(call-to-action, light);
+  color: semantic-color(call-to-action, dark);
+}

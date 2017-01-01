@@ -1,0 +1,20 @@
+{
+  "name": "semantic-color-ui",
+  "version": "0.1.0",
+  "description": "Testing the concept of true semantics in UI color application",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NateBaldwinDesign/semantic-color-ui"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "sass": "^0.5.0",
+    "sassdoc": "^2.1.20"
+  }
+}
