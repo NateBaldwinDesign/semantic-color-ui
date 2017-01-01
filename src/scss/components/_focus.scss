@@ -1,0 +1,7 @@
+*:focus {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: semantic-color(focus, base);
+  border-color: semantic-color(focus, base);
+  box-shadow: none;
+}

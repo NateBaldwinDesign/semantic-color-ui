@@ -1,0 +1,39 @@
+// Tabs
+
+.tab {
+  display: block;
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+
+.tab__nav {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tab__nav-item {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.tab__nav-link {
+  padding: 10px 16px;
+  border-bottom-width: 4px;
+  color: semantic-color(neutral, dark-med);
+  border-bottom-color: semantic-color(neutral, light);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: semantic-color(neutral, dark);
+  }
+}
+
+.tab__nav-link.is-active {
+  color: semantic-color(focus, dark);
+  border-bottom-color: semantic-color(focus, light);
+}

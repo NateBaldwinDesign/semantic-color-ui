@@ -4,7 +4,11 @@ html {
   font-size: 100%;
 }
 
-body {
+body,
+input,
+.input,
+button,
+.button {
   font-family: Helvetica, Arial, sans-serif;
   font-size: .875em;
 }
@@ -16,4 +20,16 @@ h1, h2, h3, h4, h5 {
 
 p {
   max-width: 74ch;
+}
+
+a {
+  color: semantic-color(call-to-action, dark);
+  text-decoration: none;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: semantic-color(call-to-action, light);
+
+  &:focus {
+    outline-offset: 1px;
+  }
 }
