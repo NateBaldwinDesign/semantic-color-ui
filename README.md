@@ -1,4 +1,7 @@
 # Semantic Color UI
+
+> Abstractions + Meaning = Linguistic UI
+
 Testing the concept of true semantics in UI color application.
 
 This repository is a conceptual exploration of how we can make visual interfaces more linguistic, as well as strengthening the communication between design & development by leveraging *meaningful abstractions*.
